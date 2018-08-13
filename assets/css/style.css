@@ -1,0 +1,374 @@
+@font-face {
+    font-family: latoblack;
+    src: url('../font/Lato/Lato-Black.ttf');
+}
+@font-face {
+    font-family: latobold;
+    src: url('../font/Lato/Lato-Bold.ttf');
+}
+@font-face {
+    font-family: lato;
+    src: url('../font/Lato/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: latolight;
+    src: url('../font/Lato/Lato-Light.ttf');
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: lato;
+    font-size:2.3vh
+}
+.nomarginbottom{
+    margin-bottom:0!important;
+}
+.marginauto{
+    margin-left:auto;
+    margin-right: auto;
+}
+strong{
+    font-family:latobold!important;
+}
+.img-res{
+    max-width: 100%;
+}
+.margintop{
+    margin-top:150px;
+}
+.text-merah{
+    color:#ef4358;
+}
+.text-merah-tua{
+    color:#ac071a;
+}
+.sec-0{
+    width:100%;
+}
+.cover-0{
+    background:url('../images/0/1-cover.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 750px;
+    position:relative;
+}
+.cover-0 .title{
+    background: rgba(0, 0, 0, 0.2);
+    width:100%;
+    height:50%;
+    bottom:0;
+    position:absolute;
+
+}
+
+.sec-1{
+    width:100%;
+}
+.cover-1{
+    background:url('../images/1/2-cover-akademis.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 950px;
+    position:relative;
+}
+.cover-1 .title{
+    background: rgba(255, 235, 15, 0.2);
+    width:100%;
+    height:100%;
+
+}
+.body-1{
+    position: relative;
+}
+.body-1 .bala-left{
+    position: absolute;
+    left:5%;
+    top:0;
+}
+.body-1 .bala-right{
+    position: absolute;
+    right:8%;
+    top:5%;
+}
+.body-1 .segitiga-left{
+    position: absolute;
+    left:5%;
+    bottom:50%;
+}
+.body-1 .segitiga-right{
+    position: absolute;
+    right:8%;
+    bottom:60%;
+}
+.body-1 .segitiga-bottom-left{
+    position: absolute;
+    left:3%;
+    bottom:0;
+}
+.body-1 .segitiga-bottom-right{
+    position: absolute;
+    right:4%;
+    bottom:0;
+}
+.sec-2{
+    width:100%;
+}
+.cover-2{
+    background:url('../images/2/2-foto-cemewew.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 950px;
+    position:relative;
+}
+.cover-2 .title{
+    background: rgba(238, 67, 87, 0.5);
+    width:100%;
+    height:100%;
+
+}
+.body-2{
+    position: relative;
+}
+.box-insta1{
+    margin-top:60px; 
+    background-image:
+    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 75px 100%, 75px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 74px 0;
+}
+.img-insta1{
+    width:30%;
+    margin-left:-17%;
+    margin-top:-10%;
+}
+.text-insta1{
+    width: 80%;
+    padding:1%;
+}
+.box-insta2{
+    margin-top:100px; 
+    background-image:
+    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 30px 100%, 150px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 30px 0;
+}
+.img-insta2{
+    width:30%;
+    margin-right:-60%;
+    margin-top:-7%;
+}
+.text-insta2{
+    width: 65%;
+    padding:1%;
+    margin-left:30px;
+}
+.box-insta3{
+    margin-top:80px; 
+    background-image:
+    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 100px 0;
+}
+.img-insta3{
+    width:30%;
+    margin-left:-17%;
+    margin-top:-3%;
+    margin-bottom:-3%;
+}
+.text-insta3{
+    width: 80%;
+    padding:1%;
+}
+.box-insta4{
+    margin-top:100px; 
+    background-image:
+    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 74px 0;
+}
+.img-insta4{
+    width:30%;
+    margin-right:-60%;
+    margin-top:-3%;
+    margin-bottom:-3%;
+}
+.text-insta4{
+    width: 65%;
+    padding:1% 1% 1% 4%;
+    margin-left:30px;
+}
+.box-insta5{
+    margin-top:80px; 
+    background-image:
+    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 100px 0;
+}
+.img-insta5{
+    width:30%;
+    margin-left:-17%;
+    margin-top:-3%;
+    margin-bottom:-3%;
+}
+.text-insta5{
+    width: 80%;
+    padding:1%;
+}
+.box-insta6{
+    margin-top:100px; 
+    background-image:
+    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+ 
+   background-repeat: no-repeat;
+ 
+   /* Sets the background size of each of three shapes individually */
+   background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
+ 
+   /* Sets the background position of each of three shapes individually */
+   background-position: 0 0, 100% 0, 74px 0;
+}
+.img-insta6{
+    width:30%;
+    margin-right:-60%;
+    margin-top:1%;
+}
+.text-insta6{
+    width: 85%;
+    padding:1% 1% 1% 6%;
+    margin-left:30px;
+}
+.title-insta{
+    margin-bottom:30px;
+}
+.foot-insta{
+    margin-top:30px;
+}
+.hd1{
+    position: absolute;
+    left:3%;
+    top:15%;
+}
+.hd2{
+    position: absolute;
+    right:3%;
+    top:25%;
+}
+.hd3{
+    position: absolute;
+    left:3%;
+    top:35%;
+}
+.hd4{
+    position: absolute;
+    right:3%;
+    top:40%;
+}
+.hd5{
+    position: absolute;
+    left:3%;
+    top:49%;
+}
+.hd6{
+    position: absolute;
+    right:3%;
+    top:60%;
+}
+.l-left{
+    position: absolute;
+    left:3%;
+    bottom:5%;
+}
+.l-right{
+    position: absolute;
+    right:3%;
+    bottom:5%;
+}
+.sec-4{
+    width:100%;
+}
+.cover-4{
+    background:url('../images/4/foto_tawuran.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 950px;
+    position:relative;
+}
+.cover-4 .title{
+    background: rgba(172, 6, 26, 0.5);
+    width:100%;
+    height:100%;
+
+}
+
+.sec-5{
+    width:100%;
+}
+.cover-5{
+    background:url('../images/5/tongkrongan.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 950px;
+    position:relative;
+}
+.cover-5 .title{
+    background: rgba(248, 235, 56, 0.5);
+    width:100%;
+    height:100%;
+
+}
+.sec-6{
+    width:100%;
+}
+.cover-6{
+    background:url('../images/6/foto_anak_hits_di_sekolah.jpg') no-repeat #FFF;
+    background-size:100%;
+    height: 950px;
+    position:relative;
+}
+.cover-6 .title{
+    background: rgba(5, 77, 126, 0.5);
+    width:100%;
+    height:100%;
+
+}
