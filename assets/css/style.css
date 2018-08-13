@@ -431,6 +431,65 @@ strong{
     height:100%;
 
 }
+.body-6{
+    position: relative;
+}
+.box-hits{
+    background:#054d7e;
+    padding:50px 10px 10px!important;
+}
+.box2-hits{
+    background:#054d7e;
+    padding:20px!important;
+}
+.box2-hits .box-title{
+    font-family: kings!important;
+}
+.pr1{
+    position: absolute;
+    top:40%;
+    left:0;
+}
+.pr2{
+    position: absolute;
+    top:45%;
+    right:5%;
+}
+.pr3{
+    position: absolute;
+    top:60%;
+    left:0;
+}
+.pr4{
+    position: absolute;
+    top:65%;
+    right:5%;
+}
+.pr5{
+    position: absolute;
+    top:75%;
+    right:0;
+}
+.pr6{
+    position: absolute;
+    top:80%;
+    right:3%;
+}
+.pr7{
+    position: absolute;
+    top:85%;
+    left:1%;
+}
+.pr8{
+    position: absolute;
+    top:90%;
+    right:2%;
+}
+.pr9{
+    position: absolute;
+    top:95%;
+    left:3%;
+}
 .sec-7{
     background:#fcff6c;
 }
