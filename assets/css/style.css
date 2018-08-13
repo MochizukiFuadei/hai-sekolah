@@ -100,156 +100,6 @@ strong{
 .body-2{
     position: relative;
 }
-.box-insta1{
-    margin-top:60px; 
-    background-image:
-    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 76px 100%, 75px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 75px 0;
-}
-.img-insta1{
-    width:30%;
-    margin-left:-17%;
-    margin-top:-10%;
-}
-.text-insta1{
-    width: 80%;
-    padding:1%;
-}
-.box-insta2{
-    margin-top:100px; 
-    background-image:
-    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 30px 100%, 150px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 30px 0;
-}
-.img-insta2{
-    width:30%;
-    margin-right:-60%;
-    margin-top:-7%;
-}
-.text-insta2{
-    width: 65%;
-    padding:1%;
-    margin-left:30px;
-}
-.box-insta3{
-    margin-top:80px; 
-    background-image:
-    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 100px 0;
-}
-.img-insta3{
-    width:30%;
-    margin-left:-17%;
-    margin-top:-3%;
-    margin-bottom:-3%;
-}
-.text-insta3{
-    width: 80%;
-    padding:1%;
-}
-.box-insta4{
-    margin-top:100px; 
-    background-image:
-    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 74px 0;
-}
-.img-insta4{
-    width:30%;
-    margin-right:-60%;
-    margin-top:-3%;
-    margin-bottom:-3%;
-}
-.text-insta4{
-    width: 65%;
-    padding:1% 1% 1% 4%;
-    margin-left:30px;
-}
-.box-insta5{
-    margin-top:80px; 
-    background-image:
-    linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 100px 0;
-}
-.img-insta5{
-    width:30%;
-    margin-left:-17%;
-    margin-top:-3%;
-    margin-bottom:-3%;
-}
-.text-insta5{
-    width: 80%;
-    padding:1%;
-}
-.box-insta6{
-    margin-top:100px; 
-    background-image:
-    linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
-    linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
-    linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
- 
-   background-repeat: no-repeat;
- 
-   /* Sets the background size of each of three shapes individually */
-   background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
- 
-   /* Sets the background position of each of three shapes individually */
-   background-position: 0 0, 100% 0, 74px 0;
-}
-.img-insta6{
-    width:30%;
-    margin-right:-60%;
-    margin-top:1%;
-}
-.text-insta6{
-    width: 85%;
-    padding:1% 1% 1% 6%;
-    margin-left:30px;
-}
 .title-insta{
     margin-bottom:30px;
     color:#ef4358;
@@ -371,6 +221,7 @@ strong{
     padding:50px 10px 10px!important;
 }
 .box2-hits{
+    background:#054d7e;
     padding:20px!important;
 }
 .box2-hits .box-title{
@@ -469,6 +320,156 @@ strong{
         height:100%;
     
     }
+    .box-insta1{
+        margin-top:60px; 
+        background-image:
+        linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 76px 100%, 75px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 75px 0;
+    }
+    .img-insta1{
+        width:30%;
+        margin-left:-17%;
+        margin-top:-10%;
+    }
+    .text-insta1{
+        width: 80%;
+        padding:1%;
+    }
+    .box-insta2{
+        margin-top:100px; 
+        background-image:
+        linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 30px 100%, 150px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 30px 0;
+    }
+    .img-insta2{
+        width:30%;
+        margin-right:-60%;
+        margin-top:-7%;
+    }
+    .text-insta2{
+        width: 65%;
+        padding:1%;
+        margin-left:30px;
+    }
+    .box-insta3{
+        margin-top:80px; 
+        background-image:
+        linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 100px 0;
+    }
+    .img-insta3{
+        width:30%;
+        margin-left:-17%;
+        margin-top:-3%;
+        margin-bottom:-3%;
+    }
+    .text-insta3{
+        width: 80%;
+        padding:1%;
+    }
+    .box-insta4{
+        margin-top:100px; 
+        background-image:
+        linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 74px 0;
+    }
+    .img-insta4{
+        width:30%;
+        margin-right:-60%;
+        margin-top:-3%;
+        margin-bottom:-3%;
+    }
+    .text-insta4{
+        width: 65%;
+        padding:1% 1% 1% 4%;
+        margin-left:30px;
+    }
+    .box-insta5{
+        margin-top:80px; 
+        background-image:
+        linear-gradient(to bottom right, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to bottom left, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 100px 100%, 50px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 100px 0;
+    }
+    .img-insta5{
+        width:30%;
+        margin-left:-17%;
+        margin-top:-3%;
+        margin-bottom:-3%;
+    }
+    .text-insta5{
+        width: 80%;
+        padding:1%;
+    }
+    .box-insta6{
+        margin-top:100px; 
+        background-image:
+        linear-gradient(to top right, transparent 50%, #dfdfdf 50%), /* draws right part */
+        linear-gradient(to top left, #dfdfdf, #dfdfdf), /* draws left part */
+        linear-gradient(to right, #dfdfdf, #dfdfdf); /* draws central flat part */
+     
+       background-repeat: no-repeat;
+     
+       /* Sets the background size of each of three shapes individually */
+       background-size: 75px 100%, 150px 100%, calc(100% - 150px) 100%;
+     
+       /* Sets the background position of each of three shapes individually */
+       background-position: 0 0, 100% 0, 74px 0;
+    }
+    .img-insta6{
+        width:30%;
+        margin-right:-60%;
+        margin-top:1%;
+    }
+    .text-insta6{
+        width: 85%;
+        padding:1% 1% 1% 6%;
+        margin-left:30px;
+    }
     .cover-4{
         background:url('../images/4/foto_tawuran.jpg') no-repeat #FFF;
         background-size:100%;
@@ -546,6 +547,84 @@ strong{
         width:100%;
         height:100%;
     
+    }
+    .box-insta1{
+        margin-top:60px; 
+        background:#dfdfdf;
+    }
+    .img-insta1{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta1{
+        width: 98%;
+        padding:1%;
+    }
+    .box-insta2{
+        margin-top:100px; 
+        background:#dfdfdf;
+    }
+    .img-insta2{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta2{
+        width: 98%;
+        padding:1%;
+    }
+    .box-insta3{
+        margin-top:80px; 
+        background:#dfdfdf;
+    }
+    .img-insta3{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta3{
+        width: 98%;
+        padding:1%;
+    }
+    .box-insta4{
+        margin-top:100px; 
+        background:#dfdfdf;
+    }
+    .img-insta4{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta4{
+        width: 98%;
+        padding:1%;
+    }
+    .box-insta5{
+        margin-top:80px; 
+        background:#dfdfdf;
+    }
+    .img-insta5{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta5{
+        width: 98%;
+        padding:1%;
+    }
+    .box-insta6{
+        margin-top:100px; 
+        background:#dfdfdf;
+    }
+    .img-insta6{
+        width:100%;
+        text-align: center;
+        margin-top:-20%;
+    }
+    .text-insta6{
+        width: 98%;
+        padding:1%;
     }
     .cover-4{
         background:url('../images/4/foto_tawuran.jpg') no-repeat #FFF;
