@@ -1,14 +1,14 @@
 @font-face {
-    font-family: latoblack;
-    src: url('../font/Lato/Lato-Black.ttf');
+    font-family: kings;
+    src: url('../font/fonthaigodeeper/KingsofKingsLynn.otf');
 }
 @font-face {
-    font-family: latobold;
-    src: url('../font/Lato/Lato-Bold.ttf');
+    font-family: dkdrt;
+    src: url('../font/fonthaigodeeper/DK\ Dirrrty.ttf');
 }
 @font-face {
-    font-family: lato;
-    src: url('../font/Lato/Lato-Regular.ttf');
+    font-family: gotham;
+    src: url('../font/fonthaigodeeper/Gotham-Medium.otf');
 }
 @font-face {
     font-family: latolight;
@@ -21,7 +21,7 @@
 body{
     margin:0;
     padding:0;
-    font-family: lato;
+    font-family: gotham;
     font-size:2.3vh
 }
 .nomarginbottom{
@@ -63,7 +63,9 @@ strong{
     position:absolute;
 
 }
-
+.title-intro{
+    font-family: kings!important;
+}
 .sec-1{
     width:100%;
 }
@@ -282,9 +284,16 @@ strong{
 }
 .title-insta{
     margin-bottom:30px;
+    color:#ef4358;
+    font-weight: bold;
 }
 .foot-insta{
     margin-top:30px;
+    color:#ef4358;
+    font-weight: bold;
+}
+.box-title{
+    font-family: dkdrt!important;
 }
 .hd1{
     position: absolute;
