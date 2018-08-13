@@ -439,7 +439,6 @@ strong{
     padding:50px 10px 10px!important;
 }
 .box2-hits{
-    background:#054d7e;
     padding:20px!important;
 }
 .box2-hits .box-title{
@@ -495,4 +494,13 @@ strong{
 }
 .body-7{
     padding:50px;
+}
+@media only screen and (min-width: 481px) {
+}
+@media only screen and (max-width: 480px) {
+    .pr1,.pr2,.pr3,.pr4,.pr5,.pr6,.pr7,.pr8,.pr9,.bala-right,.bala-left,.segitiga-left,.segitiga-right,.segitiga-bawah-left,.segitiga-bawah-right,
+    .hd1,.hd2,.hd3,.hd4,.hd5,.hd6,.l-left,.l-right,.blood-left,.blood-right,.blood2-left,.blood2-right,.blood3-left,.blood3-right,
+    .bamm,.pow{
+        display:none!important;
+    }
 }
