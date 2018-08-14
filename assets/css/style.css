@@ -159,6 +159,11 @@ strong{
 .body-4{
     position: relative;
 }
+.box-tawuran{
+    background:#ac071a;
+    padding:10px!important;
+    margin-bottom:20px;
+}
 .blood-left{
     position:absolute;
     top:15%;
@@ -289,7 +294,7 @@ strong{
         position:relative;
     }
     .cover-0 .title{
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0,0.2);
         width:100%;
         height:50%;
         bottom:0;
@@ -303,7 +308,7 @@ strong{
         position:relative;
     }
     .cover-1 .title{
-        background: rgba(255, 235, 15, 0.2);
+        background: rgba(255, 235, 15,0.8);
         width:100%;
         height:100%;
     
@@ -315,7 +320,7 @@ strong{
         position:relative;
     }
     .cover-2 .title{
-        background: rgba(238, 67, 87, 0.5);
+        background: rgba(238, 67, 87, 0.7);
         width:100%;
         height:100%;
     
@@ -477,7 +482,7 @@ strong{
         position:relative;
     }
     .cover-4 .title{
-        background: rgba(172, 6, 26, 0.5);
+        background: rgba(172, 6, 26, 0.7);
         width:100%;
         height:100%;
     
@@ -489,7 +494,7 @@ strong{
         position:relative;
     }
     .cover-5 .title{
-        background: rgba(248, 235, 56, 0.5);
+        background: rgba(248, 235, 56, 0.7);
         width:100%;
         height:100%;
         padding-top:50px;
@@ -501,7 +506,7 @@ strong{
         position:relative;
     }
     .cover-6 .title{
-        background: rgba(5, 77, 126, 0.5);
+        background: rgba(5, 77, 126, 0.7);
         width:100%;
         height:100%;
         padding-top:50px;
@@ -511,14 +516,17 @@ strong{
     .margintop{
         margin-top:0;
     }
+    .box-title{
+        font-size: 2.5vh!important;
+    }
     .cover-0{
-        background:url('../images/0/1-cover.jpg') no-repeat #FFF;
-        background-size:contain;
+        background:url('../images/0/1-cover.jpg') no-repeat center bottom #FFF;
+        background-size:auto 100%;
         height: 400px;
         position:relative;
     }
     .cover-0 .title{
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0,0.2);
         width:100%;
         height:50%;
         bottom:0;
@@ -531,7 +539,7 @@ strong{
         position:relative;
     }
     .cover-1 .title{
-        background: rgba(255, 235, 15, 0.2);
+        background: rgba(255, 235, 15,0.8);
         width:100%;
         height:100%;
     
@@ -543,7 +551,7 @@ strong{
         position:relative;
     }
     .cover-2 .title{
-        background: rgba(238, 67, 87, 0.5);
+        background: rgba(238, 67, 87, 0.7);
         width:100%;
         height:100%;
     
@@ -633,7 +641,7 @@ strong{
         position:relative;
     }
     .cover-4 .title{
-        background: rgba(172, 6, 26, 0.5);
+        background: rgba(172, 6, 26, 0.7);
         width:100%;
         height:100%;
     
@@ -645,7 +653,7 @@ strong{
         position:relative;
     }
     .cover-5 .title{
-        background: rgba(248, 235, 56, 0.5);
+        background: rgba(248, 235, 56, 0.7);
         width:100%;
         height:100%;
     
@@ -657,7 +665,7 @@ strong{
         position:relative;
     }
     .cover-6 .title{
-        background: rgba(5, 77, 126, 0.5);
+        background: rgba(5, 77, 126, 0.7);
         width:100%;
         height:100%;
     
