@@ -25,13 +25,6 @@ body{
     font-size:2.3vh;
     position: relative;
 }
-.menu{
-    text-align: center;
-    position: fixed;
-    width: 7%;
-    right:3%;
-    top:20%;
-}
 .menu .title{
     font-family: kings!important;
 
@@ -298,6 +291,13 @@ strong{
     .margintop{
         margin-top:150px;
     }
+    .menu{
+        text-align: center;
+        position: fixed;
+        width: 7%;
+        right:3%;
+        top:20%;
+    }
     .cover-0{
         background:url('../images/0/1-cover.jpg') no-repeat #FFF;
         background-size:100%;
@@ -524,6 +524,17 @@ strong{
     }
 }
 @media only screen and (max-width: 480px) {
+    .menu{
+        text-align: center;
+        position: fixed;
+        color:#FFF;
+        width: 100%;
+        bottom:3%;
+        background:rgba(5, 77, 126, 0.9);
+    }
+    .menu a img{
+        width:30px;
+    }
     .margintop{
         margin-top:0;
     }
